@@ -29,14 +29,13 @@ This project is a Java-based sorting visualizer with an authentication system. I
 
 ## Installation
 
-1. Clone or download the project repository from GitHub: [https://github.com/zawlinnhtet03/auth-sort-viz]
-2. Open the project in your preferred IDE (Apache NetBeans, IntelliJ IDEA, etc.).
-3. Configure the MySQL database connection:
+- Open the project in your preferred IDE (Apache NetBeans, IntelliJ IDEA, etc.).
+- Configure the MySQL database connection:
    - Create a database named `java_user_database`.
    - Modify the database connection details in the `establishConnection()` method of the `SignUp` and `Login` classes.
-4. Import the required libraries (JAR files) for the project:
+- Import the required libraries (JAR files) for the project:
    - Make sure to include the necessary JAR files for authentication, such as `javax.mail` and `org.mindrot.jbcrypt`.
-5. Build and run the project.
+- Build and run the project.
 
 ## Setting Up MySQL Database
 
