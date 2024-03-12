@@ -49,7 +49,7 @@ To store user data, you need to set up a MySQL database. Follow these steps to c
 
 CREATE TABLE user (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    full_name VARCHAR(1270) NOT NULL,
+    full_name VARCHAR(127) NOT NULL,
     email VARCHAR(127) NOT NULL UNIQUE,
     password VARCHAR(127) NOT NULL
 );
